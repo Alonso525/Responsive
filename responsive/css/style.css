@@ -1,0 +1,485 @@
+#cover{
+  color:#000000;
+  background-color:#ffffff;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    overflow:hidden;
+}
+
+body{
+	background-color: #87509c;
+}
+
+header{
+	margin-top: 25px;
+	margin-bottom: 156px;
+}
+
+header nav{
+	text-align:center;
+}
+
+header nav img{
+	margin-right: 60px;
+}
+
+header nav ul{
+	display:inline-block;
+    float: right;
+	margin-right: 90px;
+}
+
+header nav li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 15px 25px;
+}
+
+header nav a{
+	text-decoration:none;
+	font-family: 'Titillium Web', sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+header nav a:hover{
+
+	border-radius: 4px;
+	background-color: #643a79;
+}
+
+/*<-Empieza Inicio-*/
+main #intro h1{
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif;
+	color: #f7f3eb;
+	font-size: 25.83px;
+	font-weight: 700;
+	line-height: 29.907px;
+}
+
+main  button{
+	width: 160px;
+	height: 40px;
+	background-color: rgb(235,125,75);
+	border: 3px solid rgb(235,125,75);
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	cursor: pointer;
+	text-align:center;
+	margin: 0 520px;
+}
+
+/*<-Empieza Services We Provide-*/
+main #services{
+	background-color: #17c2a4;
+	font-family: 'Titillium Web', sans-serif;
+	color: #f7f3eb;
+	margin-top: 100px;
+	text-align:center;
+	position:relative;
+
+}
+
+main #services h1{
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 29.907px;
+	padding-top: 50px;
+}
+
+ hr#style1{
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	background-color:  #17c2a4 ;
+	width: 87px;
+
+}
+
+main #services p:nth-child(1){
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px ;
+	}
+
+main #services ul{
+	margin-top: 80px;
+}
+
+
+main #services li{
+	list-style-type:none;
+	display:inline-block;
+	padding: 0 25px;
+}
+
+main #services h3{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+main #services li p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-bottom: 50px;
+}
+
+/*<-Empieza Meet Our Beautiful Team-*/
+main #team{
+	background-color: #e7f1f8;
+	font-family: 'Titillium Web', sans-serif;
+	color: #3c4661;
+	line-height: 29.907px;
+	text-align:center;
+	margin-top: -33px;
+	}
+
+main #team h1{
+	padding-top: 50px;
+	font-size:40px;
+	font-weight:700;
+	line-height: 29.907px;
+}
+
+ hr#style2{
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	background-color: #e7f1f8;
+	width: 87px;
+}
+
+main #team p:nth-child(1){
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+main #team ul{
+	margin-top: 80px;
+}
+
+main #team .team_info{
+	list-style-type:none;
+	display:inline-block;
+	padding: 0 25px;
+}
+
+main #team .team_info h3{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+main #team .team_info h4{
+	color: #30bae7;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+main #team .team_info p{
+	color:#3c4761;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+main #team .social_media{
+	list-style-type:none;
+	display:inline-block;
+	padding: 5px;
+}
+
+main #team ul ul{
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+
+
+/*<-Empieza Skills-*/
+main #skills {
+	background-color: #ffffff !important;
+	font-family: 'Titillium Web', sans-serif;
+	color: #3c4761;
+	text-align:center;
+	margin-top: -33px;
+}
+
+main #skills h1{
+	color: #3c4761;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 29.907px;
+	padding-top: 35px;
+}
+ hr#style3{
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	width: 87px;
+	background-color: #dfe8ed;
+}
+
+main #skills p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+main #skills ul{
+	padding: 55px 0;
+}
+
+main #skills li{
+	list-style-type:none;
+	display:inline-block;
+	margin: 0 35px;
+}
+
+/*<-Empieza Portafolio-*/
+main #portfolio{
+	background-color: #ffdd99;
+	font-family: 'Titillium Web', sans-serif;
+	color: #393939;
+	text-align:center;
+	margin-top: -33px;
+}
+
+main #portfolio h1{
+	font-size:40px;
+	font-weight: 700;
+	line-height: 29.907px;
+	padding-top:35px;
+}
+
+ hr#style4{
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	width: 87px;
+	background-color: #e5c37f;
+}
+
+main #portfolio p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+main #portfolio button:nth-child(1){
+	width: 120px;
+	height: 42px;
+	background-color: #17c2a4;
+	border: 4px solid #17c2a4;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 19.5px;
+	cursor: pointer;
+	text-align:center;
+	margin: 0 520px;
+}
+
+main #portfolio button:nth-child(1):hover{
+	background-color: #17c2a4;
+}
+
+main #project_type ul{
+	text-align:center;
+}
+
+main #project_type li{
+	list-style-type:none;
+	display:inline-block;
+	background-color: rgba(0, 0, 0, 0.08);
+	border: 3px solid #ffdd99;
+	width: 84px;
+	height: 38px;
+	margin-bottom: 25px;
+}
+
+main #project_type li a{
+	text-decoration:none;
+	color:#393939;
+	line-height:19.5px;
+	font-weight:400;
+	font-size:18px;
+	}
+
+main #project_type li:hover{
+	background-color:#ffffff;
+}
+
+main #works li {
+	list-style-type: none;
+	display:inline-block;
+}
+
+main #works p{
+	color:#393939;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 19.5px;
+}
+
+
+main #portfolio button{
+  color:#ffffff;
+	font-size: 13.4px;
+	font-weight:600;
+	line-height:19.5px;
+	background-color: #17c2a4;
+	border-radius: 4px;
+	border: solid #17c2a4;
+	margin-bottom: 80px;
+}
+
+/*<-Empieza What People Say About Us-*/
+main #reviews{
+	background-color: #d74680;
+	font-family: 'Titillium Web', sans-serif;
+	color: #ffffff;
+	text-align:center;
+	margin-top: -33px;
+}
+
+main #reviews h1{
+	font-size:40px;
+	font-weight: 700;
+	line-height: 29.907px;
+	padding-top:50px;
+}
+
+ hr#style5{
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	width: 87px;
+	background-color: #d74680;
+}
+
+main #reviews p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+main #reviews li{
+	display:inline-block;
+	list-style-type:none;
+	color: #ffffff;
+	font-size: 17.5px;
+	font-style: italic;
+	line-height: 26px;
+	padding: 25px 50px;
+}
+
+
+main #reviews img{
+	float: left;
+}
+
+main .style_text{
+	text-align:left;
+	padding-left: 125px;
+}
+
+footer{
+	background-color: #3c5499;
+	font-family: 'Titillium Web', sans-serif;
+	color: #ffffff;
+	text-align:center;
+	margin-top: -33px;
+}
+
+footer h1{
+	padding-top:50px;
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 29.907px;
+}
+
+ hr#style6{
+	border: 4px solid rgba(0, 0, 0, 0.15);
+	width: 87px;
+	background-color: #3c5499;
+}
+
+footer p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+footer .user_name_email{
+	background-color: #273a71;
+	border:none;
+	border-radius: 4px;
+	width: 414px;
+	height: 56px;
+	text-align:center;
+	display:inline-block;
+	margin: 15px 15px;
+}
+
+footer #user_msg{
+	text-align:center;
+	width: 860px;
+	height: 200px;
+	background-color: #273a71;
+	border-radius: 4px;
+	border:none;
+	margin-top:30px;
+}
+
+footer button{
+  color:#ffffff;
+	font-size: 13.4px;
+	font-weight:600;
+	line-height:19.5px;
+	background-color: #17c2a4;
+	border-radius: 4px;
+	border: solid #17c2a4;
+	margin-bottom: 80px;
+}
+
+footer #social_media{
+	background-color:#273a71;
+	text-align:center;
+	height: 112px;
+}
+
+footer #social_media ul{
+
+  background-color:#273a71;
+}
+
+footer #social_media li{
+	display: inline-block;
+	list-style-type:none;
+	padding:10px;
+}
+
+footer #social_media a{
+	font-family: 'Titillium Web', sans-serif;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29.907px;
+	text-decoration:none;
+}
+
+footer #social_media a:hover{
+	color: #30bae7;
+}
